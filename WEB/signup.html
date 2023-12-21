@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE COFFEE WEBSITE SIGNUP</title>
+    <link rel="stylesheet" href="signup.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="signup.js"></script>
+</head>
+<body>
+    <header>
+        <a href="login.html"><button>Back</button></a>
+    </header>
+    <div class="container">
+        <form action="login.html">
+            <label for="signup">REGISTER</label>
+            <input type="text" id="name" name="name" placeholder="Username" required="">
+            <input type="email" id="email" name="email" placeholder="Email" required="">
+            <input type="password" id="password" name="password" placeholder="Password" required="">
+            <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Repeat-Password" required="">
+            <button onclick="register()">Register Account</button>
+        </form>
+    </div>
+</body>
+</html>
